@@ -1,0 +1,8 @@
+nome = input('Digite algo:').strip()
+nome = nome.upper()
+cont = nome.count('A')
+n1 = nome.find('A')
+n2 = nome.rfind('A')
+print(f'O texto possui {cont} vezes a letra A')
+print(f'A primeira vez que aparece esta na posiçao {n1 + 1}')
+print(f'A última vez que aparece esta na posição {n2 + 1}')
