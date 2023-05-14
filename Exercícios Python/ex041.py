@@ -3,8 +3,9 @@ print('=' * 35)
 print('  Confederação Nacional de Natação')
 print('=' * 35)
 ano = int(input('Ano de Nascimento: '))
-print('Você pertence a categoria:')
 ano = datetime.today().year - ano
+print(f'O aluno possui \033[1;34m{ano}\033[m anos de idade.')
+print('Você pertence a categoria:' , end = '')
 if ano <= 9:
     print('\033[1;34mMIRIM\033[m')
 elif ano > 9 and ano <= 14:

@@ -12,7 +12,7 @@ r2 = int(input('Segunda Reta: '))
 r3 = int(input('Terceira Reta: '))
 
 if (r1 < r2 + r3) and (r2 < r1 + r3) and (r3 < r2 + r1):
-    if r1 == r2 and r2 == r3:
+    if r1 == r2 == r3:
         print(f"As retas [{cores['azul']}{r1}{cores['limpa']}] [{cores['amarelo']}{r2}{cores['limpa']}] [{cores['vermelho']}{r3}{cores['limpa']}] formam um triângulo equilátero.")
     elif (r1 == r2 and r2 != r3) or (r2 == r3 and r1 != r3) or (r1 == r3 and r1 != r2):
         print(f"As retas [{cores['azul']}{r1}{cores['limpa']} [{cores['amarelo']}{r2}{cores['limpa']}] [{cores['vermelho']}{r3}{cores['limpa']}] forma um triângulo isósceles.")
