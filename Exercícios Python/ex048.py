@@ -1,6 +1,6 @@
 print('Vamos Calcular Múltiplos Ímpares de 3')
 soma = 0
-p = 30
+p = 500
 for c in range(1, p + 1):
     if c % 2 == 1:
         if c % 3 == 0:
