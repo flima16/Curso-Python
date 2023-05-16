@@ -1,6 +1,6 @@
 c = soma = 0
 while True:
-    n = int(input('Digite um número: '))
+    n = int(input('Digite um número (999): '))
     if n != 999:
         c += 1
         soma += n
